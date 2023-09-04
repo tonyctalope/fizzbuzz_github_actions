@@ -66,10 +66,7 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
-
     - name: Run Tests
-      run: python -m unittest discover
+      run: python -m fizzbuzz_tests
 ```
 Poussez ce fichier sur la branche main de votre dépôt GitHub.
